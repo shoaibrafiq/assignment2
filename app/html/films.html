@@ -1,0 +1,96 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SelectFilms</title>
+    <link rel="stylesheet" href="../css/foundation.css" />
+    <link href="../css/nouislider.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
+    <div class="off-canvas-wrap" data-offcanvas>
+        <div class="contain-to-grid sticky">
+            <nav class="tab-bar top-bar" data-topbar>
+                <section class="left-small">
+                    <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+                </section>
+
+                <section class="middle tab-bar-section">
+                    <h1 class="title">SelectFilms</h1>
+                </section>
+            </nav>
+        </div>
+
+        <div class="inner-wrap">
+
+            <!-- Off Canvas Menu -->
+            <aside class="left-off-canvas-menu">
+                <!-- whatever you want goes here -->
+                <ul class="off-canvas-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li class="current"><a href="#">Films</a></li>
+                    <li><a href="watchlist.html">Watch List</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </aside>
+<br>
+             <div class="row">
+                    <div>
+                        <div class="large-12 columns">
+                            <div class="row collapse postfix-round">
+                                <div class="small-9 columns">
+                                    <input type="text" name="search" id="search" placeholder="Search Film Title..." onkeyup="ajax('../json/films.json', searchfilm);">
+                                </div>
+                                <div class="small-3 columns">
+                                    <a href="#" class="alert button postfix" id="searchbtn" onclick="ajax('../json/films.json', searchfilm);">search</a>
+                                </div>
+                                <div class="small-12 columns">
+                                    <a href="#" class="alert button postfix" id="advancedbtn" onclick="showAdvanced()">Advanced Search</a>
+                                    <div id="advanced" class="advancedhide">
+                                        <div class="small-9 columns">
+                                            <input type="text" name="searchGenre" id="SecondSearch" placeholder="Search By Genre..." onkeyup="ajax('../json/films.json', searchfilm);">
+                                        </div>
+                                        <div class="small-3 columns advancedButton">
+                                            <a href="#" class="alert button postfix" id="searchbtn" onclick="ajax('../json/films.json', searchfilmGenre);">search</a>
+                                        </div>
+                                        <div id="ratingDiv"></div><br>
+                                        <label>Search By Ratings</label>
+                                    </div>
+                                </div>
+                                <div class="small-12 columns">
+                                    <a href="films.html" class="alert button postfix" id="showbtn">Show All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="large-8 columns">
+                        <div class="row" id="items">
+                        </div>
+                    </div>
+            
+
+            <!-- Content goes here -->
+
+            <!-- close the off-canvas menu -->
+            <a class="exit-off-canvas"></a>
+
+        </div>
+    </div>
+    </div>
+    
+    <script src="../js/vendor/jquery.js"></script>
+    <script src="../js/foundation.min.js"></script>
+    <script src="../js/nouislider.min.js"></script> 
+    <script src="../js/wNumb.js"></script>
+      <script src="../js/script.js"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
+    
+  </body>
+</html>

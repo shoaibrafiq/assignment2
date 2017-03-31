@@ -1,0 +1,74 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SelectFilms</title>
+    <link rel="stylesheet" href="../css/foundation.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
+    <div class="off-canvas-wrap" data-offcanvas>
+        <div class="contain-to-grid sticky">
+            <nav class="tab-bar top-bar" data-topbar>
+                <section class="left-small">
+                    <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+                </section>
+
+                <section class="middle tab-bar-section">
+                    <h1 class="title">SelectFilms</h1>
+                </section>
+            </nav>
+        </div>
+
+        <div class="inner-wrap">
+
+            <!-- Off Canvas Menu -->
+            <aside class="left-off-canvas-menu">
+                <!-- whatever you want goes here -->
+                <ul class="off-canvas-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="films.html">Films</a></li>
+                    <li class="current"><a href="#">Watch List</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </aside>
+
+            <div class="row">
+                        <div class="large-8 columns">
+                            <h4>Watchlist</h4>
+                            <div id="ListWatch"></div> 
+                        </div>
+                       
+                    </div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <!-- Content goes here -->
+
+            <!-- close the off-canvas menu -->
+            <a class="exit-off-canvas"></a>
+
+        </div>
+    </div>
+    
+    <script src="../js/vendor/jquery.js"></script>
+    <script src="../js/foundation.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script src="../js/jquery.touchSwipe.min.js"></script>
+    <script>
+        $(document).swipe({
+            swipeLeft: function() {
+                $('.off-canvas-wrap').removeClass('move-right');
+            },
+            swipeRight: function() {
+                $('.off-canvas-wrap').addClass('move-right');
+            }
+        });
+    </script>
+  </body>
+</html>

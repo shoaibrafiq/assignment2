@@ -1,0 +1,114 @@
+.details{
+      -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+   height:100px;
+}
+.details2{
+      -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+   height:40px;
+}
+
+
+.contain-to-grid, .tab-bar, .left-off-canvas-menu{
+
+	background-color: #ff4000;
+
+}
+
+
+.off-canvas-list{
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+
+li a {
+	color: #fff;
+}
+.current{
+    background-color: #661a00;
+}
+
+
+
+.orbit img{
+    margin-left: auto;
+    margin-right: auto;
+
+  
+}
+
+.advancedhide{
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+    transition: 1s;
+}
+
+.advancedshow{
+    visibility: visible;
+    overflow: hidden;
+    height: 10em;
+    transition: 1s;
+}
+#ratingDiv{
+    margin-top: 87px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+.LinkWatchs{
+    color: red;
+}
+
+
+
+#filmImg img{
+        width: 240px;
+        height: 350px;
+}
+
+
+#filmsMore img{
+        width: 240px;
+        height: 350px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .details p{
+        font-size: 0.8em;
+        line-height: 1;
+        margin-bottom: 0.25rem;
+    }
+    .details{
+        padding: 1rem;
+
+    }
+    .item{
+        height: 80px;
+    }
+   .one{
+      content: "";
+  display: table;
+  clear: both;
+  
+  width:70%;
+  margin-top: 10px;
+   } 
+    
+
+}
+

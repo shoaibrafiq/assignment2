@@ -1,0 +1,83 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SelectFilms</title>
+    <link rel="stylesheet" href="../css/foundation.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/vendor/modernizr.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?libraries=geometry"></script>
+ <script type="text/javascript" src="../js/location.js"></script>
+  </head>
+  <body>
+    
+    <div class="off-canvas-wrap" data-offcanvas>
+        <div class="contain-to-grid sticky">
+            <nav class="tab-bar top-bar" data-topbar>
+                <section class="left-small">
+                    <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+                </section>
+
+                <section class="middle tab-bar-section">
+                    <h1 class="title">SelectFilms</h1>
+                </section>
+            </nav>
+        </div>
+
+        <div class="inner-wrap">
+
+            <!-- Off Canvas Menu -->
+            <aside class="left-off-canvas-menu">
+                <!-- whatever you want goes here -->
+                <ul class="off-canvas-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="films.html">Films</a></li>
+                    <li><a href="watchlist.html">Watch List</a></li>
+                    <li class="current"><a href="#">Contact Us</a></li>
+                </ul>
+            </aside>
+
+            <div class="row">
+                <div class="large-12 columns">
+                    <br>
+<div id="map" style="width:100%; height:400px;"></div>
+<h2>Our Stores Near You</h2>
+<p>SelectFilms Huddersfield <br> Address: 28, Kingsgate Shopping Centre, King St,<br> Huddersfield HD1 2QB <br> Opening Hours: 9.00am - 5.30pm </p>
+<hr>
+<p>SelectFilms Leeds <br> Address: The Core, 1 Victoria Square, <br> Leeds LS1 6JD <br> Opening Hours: 9.00am - 6.00pm</p>
+
+<hr>
+<p>SelectFilms Bradford <br> The Broadway Bradford, Unit 14 Petergate Mall, The Broadway Centre, <br> Bradford BD1 1EY <br> Opening Hours: 9.00am - 8.00pm</p>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+
+                </div>
+            </div>
+
+        
+            <a class="exit-off-canvas"></a>
+
+        </div>
+    </div>
+    
+    <script src="../js/vendor/jquery.js"></script>
+    <script src="../js/foundation.min.js"></script>
+      <script src="../js/script.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+ <script src="../js/jquery.touchSwipe.min.js"></script>
+    <script>
+        $(document).swipe({
+            swipeLeft: function() {
+                $('.off-canvas-wrap').removeClass('move-right');
+            },
+            swipeRight: function() {
+                $('.off-canvas-wrap').addClass('move-right');
+            }
+        });
+    </script>
+  </body>
+</html>

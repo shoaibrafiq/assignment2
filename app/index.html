@@ -1,0 +1,122 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SelectFilms</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
+    <div class="off-canvas-wrap" data-offcanvas>
+        <div class="contain-to-grid sticky">
+            <nav class="tab-bar top-bar" data-topbar>
+                <section class="left-small">
+                    <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+                </section>
+
+                <section class="middle tab-bar-section">
+                    <h1 class="title">SelectFilms</h1>
+                </section>
+            </nav>
+        </div>
+
+        <div class="inner-wrap">
+
+            <!-- Off Canvas Menu -->
+            <aside class="left-off-canvas-menu">
+                <!-- whatever you want goes here -->
+                <ul class="off-canvas-list sticky">
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="html/films.html">Films</a></li>
+                    <li><a href="html/watchlist.html">Watch List</a></li>
+                    <li><a href="html/contact.html">Contact Us</a></li>
+                </ul>
+            </aside>
+<div class="row mycontent" >
+            <div class="row">
+                <div class="large-12 columns">
+                  <br>
+<ul class="orbit" data-orbit>
+                    <li>
+                        <img src="img/s1.jpg" alt="Logan" />
+           
+                    </li>
+
+                    <li class="active">
+                        <img src="img/s2.jpg" alt="Fist Fight" />
+                      
+                    </li>
+                    <li>
+                        <img src="img/s3.jpg" alt="John Wick Chapter 2" />
+                
+                    </li>
+                </ul>
+
+
+                </div>
+            </div>
+<div class="row">
+  <hr>
+                    <div class="large-4 columns">
+                        
+                        <h4>Resident Evil Final Chapter</h4>
+                        <img src="img/res.jpg">
+                        <p>Alice returns to where the nightmare began: The Hive in Raccoon City, where the Umbrella Corporation is gathering its forces for a final strike against the only remaining survivors of the apocalypse.</p>
+                    
+                    </div>
+                    <div class="large-4 columns">
+                        
+                        <h4>Split</h4>
+                        <img src="img/split.jpg">
+                        <p>Three girls are kidnapped by a man with a diagnosed 23 distinct personalities, they must try to escape before the apparent emergence of a frightful new 24th. A very Scary and must Watch Film!</p>
+                        
+                    </div>
+                     <div class="large-4 columns">
+                        
+                        <h4>Jumanji</h4>
+                        <img src="img/jumanji.jpg">
+                        <p>In a brand new Jumanji adventure, the tables are turned as four teenagers are sucked into Jumanji's world - pitted against rhinos, black mambas and an endless variety of jungle traps and ...</p>
+                        
+                    </div>
+                    <div class="large-10 columns">
+                        
+                        <h4>Pirates Of The Caribbean: Dead Men Tell No Tales</h4>
+                        <img src="img/pirates.jpg">
+                        <div class="large-9 columns"><p>Captain Jack Sparrow finds the winds of ill-fortune blowing even more strongly when deadly ghost pirates led by his old nemesis, the terrifying Captain Salazar, escape from the Devil's Triangle, determined to kill every pirate at sea...including him. </p></div>     </div> 
+                </div>                </div>
+
+                <hr>
+<a class="exit-off-canvas"></a>
+
+</div>
+
+                <div class="large-12 columns">
+
+ <p>&copy; SelectFilms By Shoaib Rafiq</p>
+    
+
+            <!-- close the off-canvas menu -->
+            
+        </div></div>
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    <script>
+        $(document).swipe({
+            swipeLeft: function() {
+                $('.off-canvas-wrap').removeClass('move-right');
+            },
+            swipeRight: function() {
+                $('.off-canvas-wrap').addClass('move-right');
+            }
+        });
+    </script>
+  </body>
+</html>

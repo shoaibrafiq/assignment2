@@ -1,0 +1,142 @@
+[
+{
+	"title": "American Gangster",
+	"genre": "Crime",
+	"image": "american.jpg",
+	"rating": "95",
+	"year": 2007,
+	"plot": "Following the death of his employer and mentor, Bumpy Johnson, Frank Lucas establishes himself as the number one importer of heroin in the Harlem district of Manhattan. He does so by buying heroin directly from the source in South East Asia and he comes up with a unique way of importing the drugs into the United States. As a result, his product is superior to what is currently available on the street and his prices are lower. His alliance with the New York Mafia ensures his position. It is also the story of a dedicated and honest policeman, Richie Roberts, who heads up a joint narcotics task force with the Federal government. Based on a true story."
+
+
+},
+{
+	"title": "Training Day",
+	"genre": "Thriller",
+	"image": "training.jpg",
+	"rating": "80",
+	"year": 2001,
+	"plot": "On his first day on the job as a Los Angeles narcotics officer, a rookie cop goes on a 24-hour training course with a rogue detective who isn't what he appears."
+
+
+},
+{
+	"title": "Interstellar",
+	"genre": "Sci-Fi",
+	"image": "inter.jpg",
+	"rating": "90",
+	"year": 2014,
+	"plot": "Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life."
+
+
+},
+{
+	"title": "Pineapple Express",
+	"genre": "Comedy",
+	"image": "express.jpg",
+	"rating": "75",
+	"year": 2008,
+	"plot": "A process server and his marijuana dealer wind up on the run from hitmen and a corrupt police officer after he witnesses his dealer's boss murder a competitor while trying to serve papers on him."
+
+
+},
+{
+	"title": "House Party",
+	"genre": "Comedy",
+	"image": "house.jpg",
+	"rating": "60",
+	"year": 1990,
+	"plot": "Young Kid has been invited to a party at his friend Play's house. But after a fight at school, Kid's father grounds him. None the less, Kid sneaks out when his father falls asleep. But Kid doesn't know that three of the thugs at school has decided to give him a lesson in behaviour..."
+
+
+},
+{
+	"title": "Paranormal Activity",
+	"genre": "Horror",
+	"image": "para.jpg",
+	"rating": "65",
+	"year": 2007,
+	"plot": "After a young, middle class couple moves into a suburban 'starter' tract house, they become increasingly disturbed by a presence that may or may not be somehow demonic but is certainly most active in the middle of the night. Especially when they sleep. Or try to."
+
+
+},
+{
+	"title": "Die Hard",
+	"genre": "Action",
+	"image": "hard.jpg",
+	"rating": "55",
+	"year": 1988,
+	"plot": "John McClane, officer of the NYPD, tries to save his wife Holly Gennaro and several others that were taken hostage by German terrorist Hans Gruber during a Christmas party at the Nakatomi Plaza in Los Angeles."
+
+
+},
+{
+	"title": "Arrival",
+	"genre": "Sci-Fi",
+	"image": "arrival.jpg",
+	"rating": "30",
+	"year": 2016,
+	"plot": "When twelve mysterious spacecraft appear around the world, linguistics professor Louise Banks is tasked with interpreting the language of the apparent alien visitors."
+
+
+},
+{
+	"title": "Lord of the Rings",
+	"genre": "Fantasy",
+	"image": "lord.jpg",
+	"rating": "77",
+	"year": 2002,
+	"plot": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
+
+
+},
+{
+	"title": "GoodFellas",
+	"genre": "Crime",
+	"image": "good.jpg",
+	"rating": "91",
+	"year": 1990,
+	"plot": "Henry Hill might be a small time gangster, who may have taken part in a robbery with Jimmy Conway and Tommy De Vito, two other gangsters who might have set their sights a bit higher. His two partners could kill off everyone else involved in the robbery, and slowly start to think about climbing up through the hierarchy of the Mob. Henry, however, might be badly affected by his partners' success, but will he consider stooping low enough to bring about the downfall of Jimmy and Tommy?"
+
+
+},
+{
+	"title": "The Departed",
+	"genre": "Crime",
+	"image": "dep.jpg",
+	"rating": "83",
+	"year": 2006,
+	"plot": "South Boston, the state police force is waging war on Irish-American organized crime. Young undercover cop Billy Costigan is assigned to infiltrate the mob syndicate run by gangland chief Frank Costello. While Billy quickly gains Costello's confidence, Colin Sullivan, a hardened young criminal who has infiltrated the state police as an informer for the syndicate is rising to a position of power in the Special Investigation Unit."
+
+
+},
+{
+	"title": "The Proposal",
+	"genre": "Romance",
+	"image": "pro.jpg",
+	"rating": "45",
+	"year": 2009,
+	"plot": "A pushy boss forces her young assistant to marry her in order to keep her visa status in the U.S. and avoid deportation to Canada."
+
+
+},
+{
+	"title": "Hitch",
+	"genre": "Romance",
+	"image": "hitch.jpg",
+	"rating": "68",
+	"year": 2005,
+	"plot": "While helping his latest client woo the fine lady of his dreams, a professional date doctor finds that his game doesn't quite work on the gossip columnist with whom he's smitten."
+
+
+},
+{
+	"title": "The Matrix",
+	"genre": "Action",
+	"image": "matrix.jpg",
+	"rating": "86",
+	"year": 1999,
+	"plot": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+
+
+}
+]
